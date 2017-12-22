@@ -5,7 +5,7 @@ var express = require('express');
 var app = express();
 var handlebars = require('express3-handlebars').create({defaultLayout:'main'});
 
-//视图引擎
+//视图引擎哦
 app.engine('handlebars', handlebars.engine);
 app.set('view engine','handlebars');
 
